@@ -81,12 +81,6 @@ updater.start_polling()  # Listen for messages
 2. **Flask Server**: Run `fall_detection_server.py` (Python 3.7+).  
 3. **Telegram Bot**: Deploy `fall_detection_bot.py` (requires `python-telegram-bot`).  
 
-###  **Configuration**  
-- Replace `YOUR_WIFI_SSID`, `YOUR_WIFI_PASSWORD` in ESP32 code.  
-- Set `TELEGRAM_BOT_TOKEN` and `CHAT_ID` in Flask server & bot.  
-
----
-
 ##  **Key Benefits**  
  **Real-time fall detection** with instant alerts  
  **Two-stage notification** (local buzzer + Telegram)  
@@ -95,9 +89,3 @@ updater.start_polling()  # Listen for messages
 
 ---
 
-## 📜 **License**  
-MIT License – Free for personal and educational use.  
-
-🔗 **GitHub**: [Your-Repo-Link]  
-
-🚨 **Stay Alert, Stay Safe!** 🚨
